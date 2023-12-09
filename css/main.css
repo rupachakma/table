@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(236, 240, 243);
+}
+ 
+    
+table,th,td{     
+    height:60px;
+    width: 150px;
+    text-align: center;
+    border-collapse: collapse;
+}
+table{
+    color: white;
+    margin: 30px auto;
+    height: 350px; 
+    width: 80%; 
+    background: rgb(109,32,176);
+    background: linear-gradient(90deg, rgb(101, 24, 169) 2%, rgb(148, 67, 202) 51%, rgba(191,104,204,1) 100%); 
+}
+table thead{
+    background: rgb(109,32,176);
+    background: linear-gradient(90deg, rgb(124, 65, 173) 2%, rgb(167, 90, 218) 51%, rgb(201, 132, 211) 100%); 
+}
+
+tbody tr{
+    transition: .5s;
+}
+tbody tr:hover{
+    background-color: rgb(154, 107, 199);
+    cursor: pointer;
+}
+.td1{
+    transition: 0.5s;
+}
+.td1:hover{
+    background-color: rgb(154, 107, 199);
+    cursor: pointer;
+}
